@@ -1,0 +1,24 @@
+<!--<h1>Editing {{.Title}}</h1>
+
+<form action="/save/{{.Title}}" method="POST">
+<div><textarea name="body" rows="20" cols="80">{{printf "%s" .Body}}</textarea></div>
+<div><input type="submit" value="Save"></div>
+</form>-->
+
+<h1>You can change initial value for calculation</h1>
+ <!--{{.Title}}-->
+<form action="/save2/{{.Title}}" method="post"> 
+<div><textarea name="body" rows="10" cols="40" style="font-size:20px">{{printf "%s" .Body}}</textarea></div>
+
+ <!--Name: <input type="text" name="meth1">
+        </br>-->
+     <!--Hours: <input type="text" name="Hours">
+     </br>-->
+     <input type="radio" name="methodChoices" value="plain" checked>Plain Newtone
+<input type="radio" name="methodChoices" value="pole">Pole Newtone
+<br>
+<br>
+            <input type="submit" value="Calculate" style="font-size:20px">
+            </form>
+<!--
+<div><textarea name="body" rows="20" cols="80">{{printf "%s" .Body}}</textarea></div>-->

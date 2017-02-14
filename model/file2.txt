@@ -1,0 +1,6 @@
+#(1-x*x)*(1-x*x)-x
+x0=34.2
+
+#for Pole method
+c=3
+d=5

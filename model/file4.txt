@@ -1,0 +1,6 @@
+# exp(x) -1 - 2x
+x0=14
+
+# For pole Newtone
+c=23
+d=4

@@ -1,0 +1,6 @@
+#x*x - 3.76
+x0=2
+
+#for Pole method
+c=3
+d=5
